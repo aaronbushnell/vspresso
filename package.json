@@ -1,0 +1,21 @@
+{
+    "name": "vspresso",
+    "displayName": "VSpresso",
+    "description": "An Espresso.app theme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VSpresso",
+                "uiTheme": "vs",
+                "path": "./themes/VSpresso-color-theme.json"
+            }
+        ]
+    }
+}
