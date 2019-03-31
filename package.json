@@ -2,7 +2,7 @@
     "name": "vspresso",
     "displayName": "VSpresso",
     "description": "An Espresso.app theme for VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "aaronbushnell",
     "engines": {
         "vscode": "^1.32.0"
