@@ -6,12 +6,16 @@
 		"editor.foreground": "#333333",
 		"editorCursor.foreground": "#0063E1",
 		"editorLineNumber.foreground": "#BFBFBF",
-		"sideBar.background": "#fbfbfb",
-		"sideBar.border": "#f1f1f1",
+		"sideBarSectionHeader.foreground": "#9a979c",
+		"sideBarSectionHeader.background": "#e5e4e6",
+		"sideBar.background": "#e5e4e6",
+		"sideBar.border": "#cecece",
 		"editor.selectionBackground": "#b3d6ff69",
 		"statusBar.background": "#292929",
 		"statusBar.border": "#292929",
-		"statusBar.foreground": "#a7a7a7"
+		"statusBar.foreground": "#a7a7a7",
+		"editor.wordHighlightBackground": "#b3d6ff52",
+		"editor.lineHighlightBackground": "#fffeef"
 	},
 	"tokenColors": [
 		{
@@ -68,7 +72,7 @@
 				"punctuation.definition.keyword.css",
 			],
 			"settings": {
-				"foreground": "#6700B9"
+				"foreground": "#6618b6"
 			}
 		},
 		{
@@ -80,9 +84,10 @@
 				"meta.property-name.css",
 				"meta.property-value.css",
 				"support.type.property-name.json",
+				"meta.method-call.php"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#6618b6"
 			}
 		},
 		{
@@ -116,10 +121,12 @@
 			"scope": [
 				"entity.name.function",
 				"support.function",
-				"constant.language.php"
+				"constant.language.php",
+				"meta.function-call.php"
 			],
 			"settings": {
-				"foreground": "#5936A0"
+				"foreground": "#3a2170",
+				"fontStyle": "none"
 			}
 		},
 		{
@@ -143,7 +150,11 @@
 		},
 		{
 			"name": "Sections",
-			"scope": "entity.name.section",
+			"scope": [
+				"entity.name.section",
+				"keyword.control.import.js.jsx",
+				"keyword.control.export.js.jsx",
+			],
 			"settings": {
 				"fontStyle": "bold"
 			}
